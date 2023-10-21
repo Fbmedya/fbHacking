@@ -1,6 +1,6 @@
-Author: 4lbH4cker
+Author: froxy
 ### Version 3
-(![image](https://raw.githubusercontent.com/4lbH4cker/ALHacking/main/ALhacking.png)
+(![image]
 
 
 # Hacking Tools
@@ -20,7 +20,7 @@ works on any of the following operating systems:
 
 # How to Install
 * Open the terminal and type `<pkg install git>`
-* Then`<git clone https://github.com/4lbH4cker/ALHacking>`
+* Then`<git clone https://github.com/Fbmedya/fbHacking`
 * `<cd ALHacking>`
 * `<bash alhack.sh>`
 
