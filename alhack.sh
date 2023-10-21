@@ -2,20 +2,20 @@ clear
 mkdir Tools
 clear 
 echo -e '\033[31;40;1m 
-  █████╗ ██╗             ████████╗ ██████╗  ██████╗ ██╗
- ██╔══██╗██║             ╚══██╔══╝██╔═══██╗██╔═══██╗██║
- ███████║██║     ███████╗   ██║   ██║   ██║██║   ██║██║
- ██╔══██║██║     ╚══════╝   ██║   ██║   ██║██║   ██║██║
- ██║  ██║███████╗           ██║   ╚██████╔╝╚██████╔╝███████╗
- ╚═╝  ╚═╝╚══════╝           ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝ v3
-  Coded by 4lbH4cker
-  github: https://github.com/4lbH4cker
+ ______ ____  _    _          _____ _  ___   _  _____ 
+|  ____|  _ \| |  | |   /\   / ____| |/ / \ | |/ ____|
+| |__  | |_) | |__| |  /  \ | |    | ' /|  \| | |  __ 
+|  __| |  _ <|  __  | / /\ \| |    |  < | . ` | | |_ |
+| |    | |_) | |  | |/ ____ \ |____| . \| |\  | |__| |
+|_|    |____/|_|  |_/_/    \_\_____|_|\_\_| \_|\_____|v3
+  Coded by froxy
+  github: https://github.com/Fbmedya
 \033[33;4mVersion:\033[0m 3            \033[33;4mCTRL+C:\033[0m exit          \033[33;4mAuthor:\033[0m 4lbH4cker
 
-\e[37m[1]\e[36m Kërkesat & Përditësimi        \e[37m[2]\e[36m Phishing Tool				
+\e[37m[1]\e[36m İstekler ve Güncelleme        \e[37m[2]\e[36m Phishing Tool				
 \e[37m[3]\e[36m WebCam Hack                   \e[37m[4]\e[36m User Find					
 \e[37m[5]\e[36m Gmail Bomber		  \e[37m[6]\e[36m DDOS Attack			
-\e[37m[7]\e[36m Si të përdorni ?	          \e[37m[8]\e[36m Çinstaloni programet e shkarkuara		
+\e[37m[7]\e[36m Nasıl kullanılır?	          \e[37m[8]\e[36m İndirilen programları kaldırın		
 \e[37m[9]\e[36m Ip Info	                  \e[37m[10]\e[36m dorks-eye
 \e[37m[11]\e[36m ghost_eye                    \e[37m[12]\e[36m RED_HAWK
 \e[37m[13]\e[36m VirusCrafter                 \e[37m[14]\e[36m Info-Site
@@ -30,7 +30,7 @@ read -p "Numri i transaksionit: " islem
 if [[ $islem == 1 || $islem == 01 ]]; then
 clear
 
-echo -e "\033[47;31;5m Po instalon përditësimin dhe kërkesat...\033[0m"
+echo -e "\033[47;31;5m Güncelleme ve gereksinimler yükleniyor...\033[0m"
 sleep 5
 pkg install git -y
 pkg install python python2 -y
@@ -39,13 +39,13 @@ pkg install curl -y
 apt update
 apt upgrade -y
 clear
-echo -e "\033[47;3;35m Përditësimi i plotë...\033[0m"
+echo -e "\033[47;3;35m Tam güncelleme...\033[0m"
 sleep 3
 bash tga.sh
 
 elif [[ $islem == 2 || $islem == 02 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 git clone https://github.com/htr-tech/zphisher
@@ -54,7 +54,7 @@ bash zphisher.sh
 
 elif [[ $islem == 3 || $islem == 03 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 git clone https://github.com/techchipnet/CamPhish
@@ -63,7 +63,7 @@ bash camphish.sh
 
 elif [[ $islem == 4 || $islem == 04 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 git clone https://github.com/xHak9x/finduser
@@ -72,7 +72,7 @@ bash finduser.sh
        
 elif [[ $islem == 5 || $islem == 05 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 git clone https://github.com/palahsu/MBomb.git
@@ -81,7 +81,7 @@ python MBomb.py
 
 elif [[ $islem == 6 || $islem == 06 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 pip3 install requests pysocks
@@ -98,7 +98,7 @@ bash tga.sh
 elif [[ $islem == 8 ]]; then
         clear
 
-echo -e "\033[47;3;35m PO HIQEN PROGRAMET E SHKARKUARA...\033[0m"
+echo -e "\033[47;3;35m PROGRAMLAR İNDİRİLİYOR...\033[0m"
 sleep 3 
 rm -rf Tools
 
@@ -106,7 +106,7 @@ bash tga.sh
 
 elif [[ $islem == 9 || $islem == 09 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 git clone https://github.com/ahgaurel1/ipinfo
@@ -116,7 +116,7 @@ python3 ipinfo.py
 
 elif [[ $islem == 10 || $islem == 010 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 git clone https://github.com/BullsEye0/dorks-eye.git
@@ -126,7 +126,7 @@ python3 dorks-eye.py
 
 elif [[ $islem == 11 || $islem == 011 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 git clone https://github.com/BullsEye0/ghost_eye.git
@@ -136,7 +136,7 @@ python3 ghost_eye.py
 
 elif [[ $islem == 12 || $islem == 012 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 git clone https://github.com/Tuhinshubhra/RED_HAWK
@@ -145,7 +145,7 @@ php rhawk.php
 
 elif [[ $islem == 13 || $islem == 013 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 git clone https://github.com/Devil-Tigers/TigerVirus
@@ -157,7 +157,7 @@ bash TigerVirus.sh
 
 elif [[ $islem == 14 || $islem == 014 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 pkg install curl -y
@@ -169,7 +169,7 @@ bash info.sh
 
 elif [[ $islem == 15 || $islem == 015 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 sudo apt-get update
@@ -183,7 +183,7 @@ sudo php BadMod.php
 
 elif [[ $islem == 16 || $islem == 016 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+echo -e "\033[47;3;35m Kurulum biraz zaman alabilir\033[0m"
 sleep 3
 cd Tools
 git clone https://github.com/fu8uk1/facebash
@@ -194,7 +194,7 @@ sudo ./facebash.sh
 
 else   
 	clear
-        echo -e '\033[36;40;1m Keni futur kodin e gabuar'	
+        echo -e '\033[36;40;1m Yanlış kodu girdiniz'	
 	sleep 1
 	clear 
 	bash tga.sh
